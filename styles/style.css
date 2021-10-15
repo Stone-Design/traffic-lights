@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right bottom, #034749, #07abb1);
+    font-family: 'Gluten', cursive;
+}
+
+.title {
+    position: relative;
+    font-size: 5rem;
+    color: rgb(251, 255, 0);
+    text-align: center;
+    padding-top: 3rem;
+    text-shadow: 8px 16px 12px rgba(0,0,0,0.6);
+}
+
+.traffic-light-container {
+    position: relative;
+    width: 80%;
+    height: 90vh;
+}
+
+.traffic-light {
+    width: 50%;
+    margin-left: 150px;
+    margin-top: -50px;
+}
+
+.red, .amber, .green {
+    border-radius: 50%;
+    position: absolute;
+    width: 165px;
+    height: 165px;
+    left: 319px;
+}
+
+.red {
+    background-color: #490202;
+    top: 108px;
+}
+
+.amber{
+    background-color: #643801;
+    top: 315px;
+}
+
+.green {
+    background-color: rgb(1, 53, 1);
+    top: 527px;
+}
+
+.auto-button, .manual-button {
+    font-family: 'Gluten', cursive;
+    text-align: center;
+    position: relative;
+    width: 550px;
+    padding: 2rem;
+    font-size: 1.6rem;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 15%;
+    transition: all 0.3s;
+    z-index: 1000;
+}
+
+.auto-button {
+    left: 67.5%;
+    top: 30%;
+    background-color: #da820f;
+    box-shadow: 7px 14px 0 #012627;
+}
+
+.auto-button:hover,
+.manual-button:hover {
+    background-color: #000;
+    border: 2px solid #fff;
+    color: #fff;
+    box-shadow: 12px 24px 0 #012627;
+}
+
+.auto-button:active,
+.manual-button:active {
+    transform: translateY(3px);
+    box-shadow: 5px 10px 0 #012627;
+}
+
+.manual-button {
+    left: 31%;
+    top: 50%;
+    background-color: #3eda0f;
+    box-shadow: 7px 14px 0 #012627;
+}
+
+/* Active Lights */
+
+.red-active {
+    background-color: red;
+}
+
+.amber-active {
+    background-color: orange;
+}
+
+.green-active {
+    background-color: green;
+}
+
+footer {
+    background-color: #490202;
+    color: #fff;
+}
+
+footer h2 {
+    padding: 0 150px;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.footer-container {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heart {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.rainbow {
+    display: flex;
+    position: relative;
+    /* right: 20px; */
+    width: 250px;
+    height: 150px;
+}

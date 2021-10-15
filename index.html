@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gluten:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/queries.css">
+    <title>Traffic Lights</title>   
+</head>
+
+<body>
+    <h1 class="title">Traffic Lights</h1>
+    
+    <div class="traffic-light-container">
+        <button class="auto-button" onclick="autoButton();">Click Me for Automatic Cycle</button>
+        <button class="manual-button" onclick="manualButton();">Click Me for Manual Cycle</button>
+        <figure class="traffic-light">
+            <img src="./images/traffic-light.png" alt="Traffic Light">
+            <span id="redLight" class="red" onclick="clickRed();"></span>
+            <span id="amberLight" class="amber" onclick="clickAmber();"></span>
+            <span id="greenLight" class="green" onclick="clickGreen();"></span>
+        </figure>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <img class="heart" src="images/Heart-Free-PNG.png" alt="heart">
+            <h2>For Brody - Written By Matt Stone 2021</h2>
+            <img class="rainbow" src="images/Rainbow-PNG-Clipart.png" alt="rainbow">
+        </div>
+    </footer>
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>

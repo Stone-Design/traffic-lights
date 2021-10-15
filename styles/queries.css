@@ -1,0 +1,132 @@
+@media only screen and (max-width: 800px) {
+    .title {
+        font-size: 2rem;
+        position: relative;
+        text-align: center;
+    }
+
+    .traffic-light {
+        left: 0;
+        top: -12%;
+    }
+
+    .red, .amber, .green {
+        width: 150px;
+        height: 150px;
+        left: 32.5%;
+    }
+    
+    .red {
+        top: 16.5%;
+    }
+    
+    .amber{
+        top: 42.5%;
+    }
+    
+    .green {
+        top: 68.6%;
+    }
+
+    .auto-button,
+    .manual-button {
+        font-size: 1rem;
+        width: 150px;
+        padding: 1.25rem;
+    }
+
+    .auto-button {
+        left: 75%;
+    }
+
+    .manual-button {
+        left: 56%;
+        padding: 1.3rem;
+    }
+
+    footer h2 {
+        font-size: 1.5rem;
+        padding: 0;
+    }
+
+    .footer-container {
+        width: 100%;
+        height: 13vh;
+        justify-content: space-around;
+    }
+
+    .heart,
+    .rainbow {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    body { width: 100vw; }
+
+    .title {
+        font-size: 2rem;
+        position: relative;
+        text-align: center;
+    }
+
+    .traffic-light-container {
+        position: relative;
+        width: 50vw;
+        height: 80vh;
+    }
+
+    .traffic-light img {
+        position: relative;
+        margin-left: -70px;
+        margin-top: 100px;
+        width: 250%;
+        height: 250%;
+    }
+
+    .red, .amber, .green {
+        width: 80px;
+        height: 80px;
+        left: 161px;
+    }
+    
+    .red {
+        top: 255px;
+    }
+    
+    .amber{
+        top: 355px;
+    }
+    
+    .green {
+        top: 456px;
+    }
+
+    .auto-button {
+        top: 50px;
+        left: 20%;
+    }
+
+    .manual-button {
+        top: -35px;
+        left: 100%;
+    }
+
+    footer h2 {
+        font-size: 1.2rem;
+        padding: 0;
+    }
+
+    .footer-container {
+        width: 100%;
+        height: 13vh;
+        justify-content: space-around;
+    }
+
+    .heart,
+    .rainbow {
+        display: none;
+    }
+
+}
